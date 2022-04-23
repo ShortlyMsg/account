@@ -20,7 +20,7 @@ data class Customer(
     val accounts: Set<Account>?
 
 ) {
-    constructor() : this("", "", "", HashSet()) {
+    constructor(name: String, surname: String) : this("", name, surname, HashSet()) {
 
     }
 }
