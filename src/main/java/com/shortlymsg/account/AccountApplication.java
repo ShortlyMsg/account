@@ -1,15 +1,12 @@
 package com.shortlymsg.account;
 
-import com.shortlymsg.account.model.Account;
 import com.shortlymsg.account.model.Customer;
 import com.shortlymsg.account.repository.CustomerRepository;
-import kotlin.collections.SetsKt;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
+
 import java.util.HashSet;
 
 @SpringBootApplication
